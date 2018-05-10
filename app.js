@@ -4,7 +4,7 @@ let payRate = prompt("What is your pay rate per hour");
 hours = Number(hours);
 payRate = Number(payRate);
 
-if (hours=>40) {
+if (hours>=40) {
 	console.log((hours*payRate)+((hours-40)*(payRate*0.5)));
 }
 else {
